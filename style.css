@@ -40,6 +40,8 @@ nav {
   color: #fff;
 }
 
+/* Main Menu */
+
 .main-menu {
   display: flex;
   margin-left: 2rem;
@@ -58,6 +60,48 @@ nav {
 .main-menu a:hover {
   text-decoration: underline;
   color: #ffff00;
+}
+
+/* Mega Menu */
+
+.mega-menu {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.mega-menu-container {
+  position: absolute;
+  top: 100%;
+  width: 650px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  padding: 1rem 2rem;
+}
+
+.mega-menu:hover .mega-menu-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.category-list {
+  list-style-type: none;
+}
+
+.category-list li {
+  padding: 0.5rem;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.category-list a {
+  color: #333;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.category-list a:hover {
+  color: green;
 }
 
 /* Right Menu */
